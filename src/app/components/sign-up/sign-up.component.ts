@@ -58,17 +58,17 @@ export class SignUpComponent {
     }
   }
 
-/*
-   Method for password visibility toggle
-*/
+  /*
+     Method for password visibility toggle
+  */
 
   public togglePassword() {
     this.showPassword = !this.showPassword;
   }
 
-/*
- Navigate to sign-in page
-*/
+  /*
+   Navigate to sign-in page
+  */
 
   public goToSignIn() {
     this.router.navigate(['/sign-in']);

@@ -7,7 +7,8 @@
     <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="space-y-4">
 
       <div>
-        <input formControlName="email" type="email" placeholder="Email Address"
+        <label for="email" class="block text-gray-700 font-medium mb-1">Email Address</label>
+        <input id="email" formControlName="email" type="email" placeholder="Enter your email"
           class="border border-gray-300 rounded-lg p-3 w-full focus:outline-none focus:ring-2 focus:ring-green-500" />
         <p *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.invalid" class="text-red-500 text-xs mt-2">
           <span *ngIf="loginForm.get('email')?.errors?.['required']">Email is required.</span>
@@ -16,9 +17,11 @@
       </div>
 
       <div class="relative">
-        <input [type]="showPassword ? 'text' : 'password'" formControlName="password" placeholder="Password"
+        <label for="password" class="block text-gray-700 font-medium mb-1">Password</label>
+        <input id="password" [type]="showPassword ? 'text' : 'password'" formControlName="password"
+          placeholder="Enter your password"
           class="border border-gray-300 rounded-lg p-3 w-full focus:outline-none focus:ring-2 focus:ring-green-500" />
-        <button type="button" (click)="togglePassword()" class="absolute right-3 top-3 text-gray-500">
+        <button type="button" (click)="togglePassword()" class="absolute right-3 top-9 text-gray-500">
           <span *ngIf="showPassword">👁️</span>
           <span *ngIf="!showPassword">🙈</span>
         </button>
@@ -29,7 +32,7 @@
       </div>
 
       <button type="submit"
-        class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg transition duration-300 disabled:bg-gray-400"
+        class="cursor-pointer w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg transition duration-300 disabled:bg-gray-400"
         [disabled]="loginForm.invalid">
         Login
       </button>

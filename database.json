@@ -13,10 +13,16 @@
       "password": "test1234"
     },
     {
-      "id": "98a3",
-      "name": "sachin",
-      "email": "sachin1@gmail.com",
-      "password": "sachin123"
+      "id": "7425",
+      "name": "test",
+      "email": "test1@gmail.com",
+      "password": "test1234"
+    },
+    {
+      "id": "7c0d",
+      "name": "sourav",
+      "email": "sourav@gmail.com",
+      "password": "123456"
     }
   ],
   "books": [
@@ -26,15 +32,40 @@
       "pages": [
         {
           "page": 1,
-          "content": "Once upon a time, in a faraway land, there lived a young traveler with dreams bigger than the horizon. He longed for adventure and sought the unknown. One day, he found an ancient map that whispered secrets of a hidden treasure. The journey ahead was uncertain, but the spark of curiosity burned bright in his heart."
+          "content": "Once upon a time, in a faraway land, there lived a young traveler with dreams bigger than the horizon.\nHe gazed at the stars each night, wondering what lay beyond the hills.\nOne morning, he packed his bag, determined to set forth on an adventure.\nHis heart was filled with excitement, but he knew the journey would not be easy."
         },
         {
           "page": 2,
-          "content": "The hero embarked on a journey to find the lost treasure, traversing dense forests and crossing roaring rivers. Along the way, he met a wise old man who spoke in riddles and warned of the trials ahead. Each step forward brought new challenges, testing his strength and resolve. But he was determined—nothing could break his spirit."
+          "content": "The hero embarked on a journey to find the lost treasure, traversing dense forests and crossing roaring rivers.\nAlong the way, he met wise villagers who shared stories of past adventurers.\nEach story fueled his determination to push forward, no matter the obstacles.\nWith every step, he felt the weight of his decision, but he never looked back."
+        },
+        {
+          "page": 3,
+          "content": "Through mountains and valleys, he met new companions who taught him lessons of courage and perseverance.\nA wandering swordsman showed him how to defend himself against danger.\nA kind-hearted merchant gifted him a map that hinted at the treasure’s location.\nTogether, they shared meals by the fire, strengthening their resolve to continue."
+        },
+        {
+          "page": 4,
+          "content": "The ancient map led him to a mysterious cave filled with puzzles and hidden traps.\nHe carefully stepped forward, avoiding pressure plates that triggered falling rocks.\nStrange symbols lined the cave walls, whispering secrets of the past.\nWith a deep breath, he solved the first puzzle, revealing a hidden passage ahead."
+        },
+        {
+          "page": 5,
+          "content": "With each challenge, he grew stronger, realizing that the true treasure was the journey itself.\nHe faced his fears, climbed towering cliffs, and swam across treacherous waters.\nHis confidence grew with each victory, but he remained humble in his heart.\nThe journey had already changed him, but the final challenge awaited."
+        },
+        {
+          "page": 6,
+          "content": "The final test awaited: a battle against his greatest fear, requiring him to embrace his destiny.\nShadows surrounded him, whispering doubts and fears from his past.\nHe took a deep breath and stood firm, refusing to give in to despair.\nWith a single step forward, the darkness faded, and the path became clear."
+        },
+        {
+          "page": 7,
+          "content": "Emerging victorious, he unlocked the treasure, not gold or jewels, but wisdom beyond measure.\nA book lay before him, filled with knowledge from the ancients.\nHe understood now—true wealth was never material, but the lessons we learn.\nHis journey had prepared him for something greater than riches."
+        },
+        {
+          "page": 8,
+          "content": "Returning home, he became a legend, inspiring others to chase their own adventures.\nThe people welcomed him with open arms, eager to hear his tales.\nHe shared his wisdom with young dreamers, passing down what he had learned.\nAnd as he gazed at the stars once more, he smiled, knowing that every journey begins with a single step."
         }
       ],
       "owners": [
-        "b82c"
+        "b82c",
+        "2b94"
       ]
     },
     {
@@ -43,14 +74,40 @@
       "pages": [
         {
           "page": 1,
-          "content": "The world of science is full of amazing discoveries that have shaped humanity. From the smallest atoms to the vastness of space, science reveals the mysteries of existence. It is the force behind innovation, exploration, and the betterment of life. The more we learn, the more we realize how much remains undiscovered."
+          "content": "The world of science is full of amazing discoveries that have shaped humanity.\nFrom the invention of the wheel to space travel, science has transformed our lives.\nCuriosity and experimentation drive human progress forward.\nEach discovery builds upon the past, leading to new innovations."
         },
         {
           "page": 2,
-          "content": "Electricity revolutionized the way we live, powering homes, industries, and technology. The discovery of electric currents changed history, leading to the invention of light bulbs, telephones, and computers. It is the invisible force that fuels our modern world, yet we often take it for granted. Imagine a life without it!"
+          "content": "Electricity revolutionized the way we live, powering homes, industries, and technology.\nThe discovery of electric currents changed communication and transportation.\nInventions like the light bulb and telegraph reshaped daily life.\nToday, renewable energy sources are helping us harness electricity more sustainably."
+        },
+        {
+          "page": 3,
+          "content": "The discovery of gravity by Newton changed our understanding of the universe.\nHe observed an apple falling and questioned the force pulling it downward.\nThis led to the formulation of the laws of motion and universal gravitation.\nGravity governs planetary orbits, keeping Earth in balance with the Sun."
+        },
+        {
+          "page": 4,
+          "content": "Space exploration has allowed us to reach the moon and dream of Mars.\nThe first satellite, Sputnik, marked the beginning of the space age.\nAstronauts set foot on the Moon, proving that space travel was possible.\nNow, space agencies plan missions to explore distant planets and galaxies."
+        },
+        {
+          "page": 5,
+          "content": "DNA discoveries have unlocked the secrets of genetics and human evolution.\nScientists decoded the structure of DNA, revealing the blueprint of life.\nGenetic research helps in curing diseases and improving health.\nIt also traces our ancestry, showing how all life is connected."
+        },
+        {
+          "page": 6,
+          "content": "Nanotechnology is revolutionizing medicine, engineering, and computing.\nIt allows scientists to manipulate materials at the atomic level.\nNanobots can be used for targeted drug delivery in the human body.\nThis field is opening doors to futuristic advancements in multiple industries."
+        },
+        {
+          "page": 7,
+          "content": "Artificial Intelligence is shaping the future, with limitless possibilities.\nMachines are learning to think, analyze, and even predict human behavior.\nAI is used in self-driving cars, healthcare, and virtual assistants.\nIt raises ethical questions but also offers solutions for global challenges."
+        },
+        {
+          "page": 8,
+          "content": "The more we learn, the more we realize how much remains undiscovered.\nFrom the deep ocean to outer space, mysteries still await.\nScientists continue to push boundaries, seeking answers to the unknown.\nThe future of science holds endless possibilities, waiting to be explored."
         }
       ],
-      "owners": []
+      "owners": [
+        "b82c"
+      ]
     },
     {
       "id": "3",
@@ -58,41 +115,35 @@
       "pages": [
         {
           "page": 1,
-          "content": "Your mindset determines your success in life. A positive mindset fosters resilience, growth, and achievement, while a negative one limits potential. Throughout history, great thinkers and innovators have harnessed the power of mindset to overcome obstacles and achieve greatness. What you believe shapes your reality."
+          "content": "Your mindset determines your success in life.\nThe way you think influences your actions and decisions.\nA positive mindset helps overcome challenges with confidence.\nYour beliefs shape your potential and future achievements."
         },
         {
           "page": 2,
-          "content": "Fixed mindset vs. Growth mindset: The key difference lies in how challenges are perceived. Those with a fixed mindset see failure as a reflection of their abilities, while those with a growth mindset see failure as an opportunity to learn. The way we think can determine the path of our success."
-        }
-      ],
-      "owners": []
-    },
-    {
-      "id": "4",
-      "name": "The History of Civilization",
-      "pages": [
-        {
-          "page": 1,
-          "content": "The dawn of humanity began in ancient Africa, where the first civilizations emerged. From hunting and gathering to settled agriculture, humans adapted to their environment and built communities. Over time, villages transformed into cities, paving the way for grand civilizations that would shape the world."
+          "content": "Fixed mindset vs. Growth mindset: The key difference lies in how challenges are perceived.\nA fixed mindset believes intelligence and abilities are static.\nA growth mindset embraces learning, effort, and adaptability.\nChoosing a growth mindset unlocks limitless possibilities."
         },
         {
-          "page": 2,
-          "content": "The first civilizations: Mesopotamia, Egypt, and the Indus Valley, flourished along fertile rivers. These societies developed writing, governance, and advanced architecture. The pyramids of Egypt, the ziggurats of Mesopotamia, and the planned cities of the Indus Valley are testaments to their ingenuity."
-        }
-      ],
-      "owners": []
-    },
-    {
-      "id": "5",
-      "name": "Fictional Realities",
-      "pages": [
-        {
-          "page": 1,
-          "content": "The city of Eldoria was hidden from the world, concealed behind a magical veil that only the chosen could see. Legends spoke of an ancient prophecy, foretelling the rise of a hero who would restore balance to the realm. The people of Eldoria waited, hoping the hero would appear before darkness consumed them."
+          "page": 3,
+          "content": "Successful people embrace challenges and learn from failures.\nEvery failure is a lesson that builds resilience and strength.\nRather than fearing setbacks, they use them as stepping stones.\nLearning from mistakes is the key to long-term success."
         },
         {
-          "page": 2,
-          "content": "A young magician discovered his incredible powers when he stumbled upon an old spellbook. Unbeknownst to him, the book was the key to awakening a long-lost lineage of warriors. As he read its pages, the words glowed with energy, filling his mind with forgotten wisdom and untold secrets."
+          "page": 4,
+          "content": "Positive thinking helps in overcoming obstacles and achieving dreams.\nYour thoughts shape your reality and determine your progress.\nFocusing on solutions rather than problems leads to growth.\nA positive attitude attracts opportunities and success."
+        },
+        {
+          "page": 5,
+          "content": "Resilience is built through persistent efforts and self-belief.\nLife is full of challenges, but persistence makes a difference.\nStrong determination helps in pushing beyond limitations.\nThe ability to bounce back defines true inner strength."
+        },
+        {
+          "page": 6,
+          "content": "Surrounding yourself with the right people fuels personal growth.\nPositive influences shape your thoughts and ambitions.\nA strong support system provides motivation and encouragement.\nChoose friends who inspire and challenge you to improve."
+        },
+        {
+          "page": 7,
+          "content": "Every setback is an opportunity to learn and improve.\nFailure is not the opposite of success but part of the journey.\nGreat achievements come from persistence and adaptability.\nEmbracing failure with a learning mindset leads to breakthroughs."
+        },
+        {
+          "page": 8,
+          "content": "Change your mindset, and you change your life.\nSuccess starts with believing in your ability to grow.\nA strong mindset transforms struggles into stepping stones.\nYour future is shaped by the mindset you choose today."
         }
       ],
       "owners": []
@@ -103,11 +154,74 @@
       "pages": [
         {
           "page": 1,
-          "content": "Cooking is both an art and a science, blending flavors, textures, and techniques to create culinary masterpieces. The way ingredients are combined can turn a simple dish into a gourmet delight. Every culture has its own unique approach to cooking, showcasing centuries of tradition and innovation."
+          "content": "Cooking is both an art and a science, blending flavors, textures, and techniques.\nIt transforms raw ingredients into delicious and nutritious meals.\nThe right balance of seasoning and timing creates a perfect dish.\nExperimenting in the kitchen enhances creativity and skill."
         },
         {
           "page": 2,
-          "content": "The history of cooking dates back to prehistoric times when early humans discovered fire. Roasting meat, boiling grains, and fermenting beverages marked the beginning of culinary evolution. From the spices of the Silk Road to the refined techniques of French cuisine, food has always been central to human civilization."
+          "content": "The history of cooking dates back to prehistoric times when early humans discovered fire.\nCooking with fire made food easier to chew and digest.\nOver time, humans began using spices, herbs, and fermentation.\nAncient civilizations developed recipes that influenced modern cuisine."
+        },
+        {
+          "page": 3,
+          "content": "Different cultures developed unique cuisines, reflecting local ingredients and traditions.\nItalian cuisine is known for pasta and olive oil, while Indian food is rich in spices.\nAsian cuisine uses soy sauce, rice, and fresh vegetables in creative ways.\nFood represents culture, history, and regional identity."
+        },
+        {
+          "page": 4,
+          "content": "The rise of gourmet cooking introduced sophisticated techniques and presentation styles.\nFrench cuisine popularized fine dining and elegant plating.\nMichelin-star restaurants focus on detail, innovation, and precision.\nMastering gourmet techniques requires patience and practice."
+        },
+        {
+          "page": 5,
+          "content": "Modern culinary innovations include molecular gastronomy and plant-based diets.\nMolecular chefs use science to create unique textures and flavors.\nVegan and vegetarian meals have gained popularity worldwide.\nHealthy eating trends emphasize organic, whole, and fresh ingredients."
+        },
+        {
+          "page": 6,
+          "content": "Cooking shows and competitions have made chefs into global celebrities.\nShows like MasterChef and Top Chef inspire home cooks.\nProfessional chefs showcase creativity under pressure.\nFood blogging and social media have changed how we share recipes."
+        },
+        {
+          "page": 7,
+          "content": "Technology is changing kitchens, with smart appliances and AI-powered recipes.\nAir fryers, sous vide machines, and instant pots simplify cooking.\nAI-generated recipes suggest personalized meal plans.\nFuture kitchens may rely on automation and robotic chefs."
+        },
+        {
+          "page": 8,
+          "content": "Food connects people, bringing cultures together through shared meals.\nFamily dinners and festivals celebrate traditions with special dishes.\nA good meal can create memories and strengthen relationships.\nCooking is more than sustenance; it’s a way of expressing love."
+        }
+      ],
+      "owners": []
+    },
+    {
+      "id": "7",
+      "name": "Mysteries of the Universe",
+      "pages": [
+        {
+          "page": 1,
+          "content": "The universe is vast and mysterious, filled with wonders beyond our imagination.\nIt spans billions of light-years, containing countless stars and galaxies.\nAstronomers estimate there are over two trillion galaxies in the observable universe.\nThe more we explore, the more we realize how much remains unknown."
+        },
+        {
+          "page": 2,
+          "content": "Black holes, neutron stars, and dark matter continue to puzzle scientists.\nBlack holes have immense gravity, pulling in everything around them, even light.\nNeutron stars are incredibly dense remnants of supernova explosions.\nDark matter, invisible yet influential, shapes galaxies and their motion."
+        },
+        {
+          "page": 3,
+          "content": "The Big Bang theory explains the origins of the universe and its expansion.\nScientists believe the universe began as a singularity 13.8 billion years ago.\nCosmic microwave background radiation is the oldest light in the universe.\nThe universe is still expanding, and its ultimate fate remains uncertain."
+        },
+        {
+          "page": 4,
+          "content": "Galaxies form and collide in cosmic dances spanning millions of years.\nThe Milky Way is set to collide with the Andromeda galaxy in 4.5 billion years.\nGalaxy clusters are bound by gravity, forming massive cosmic structures.\nSupermassive black holes sit at the center of most galaxies, shaping their evolution."
+        },
+        {
+          "page": 5,
+          "content": "Exoplanets raise questions about life beyond Earth and habitable worlds.\nThousands of exoplanets have been discovered orbiting distant stars.\nSome exoplanets exist in the 'habitable zone,' where liquid water could exist.\nThe search for alien life continues through missions like the James Webb Telescope."
+        },
+        {
+          "page": 6,
+          "content": "Time, space, and relativity challenge our perceptions of reality.\nEinstein’s theory of relativity shows how time and space are interconnected.\nTime slows down near massive objects, a phenomenon known as time dilation.\nWormholes, if they exist, could provide shortcuts through space-time."
+        },
+        {
+          "page": 7,
+          "content": "The search for extraterrestrial intelligence continues with advanced telescopes.\nScientists use radio telescopes to detect possible alien signals from deep space.\nThe SETI project scans the sky for potential extraterrestrial communications.\nWhile no confirmed signals have been found, the search continues."
+        },
+        {
+          "page": 8,
+          "content": "Every discovery brings new mysteries, reminding us how little we know.\nDark energy, a force driving the universe’s expansion, remains unexplained.\nNew physics theories aim to unify gravity with quantum mechanics.\nThe quest to understand the universe is never-ending, inspiring generations."
         }
       ],
       "owners": []

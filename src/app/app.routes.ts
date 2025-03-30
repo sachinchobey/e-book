@@ -7,8 +7,8 @@ import { ReadBookComponent } from './components/read-book/read-book.component';
 import { AuthGuard } from './guards/auth.guard';
 
 export const routes: Routes = [
-  { path: 'sign-up', component: SignUpComponent },
-  { path: 'sign-in', component: SignInComponent },
+  { path: 'sign-up', component: SignUpComponent, canActivate: [AuthGuard] },
+  { path: 'sign-in', component: SignInComponent, canActivate: [AuthGuard] },
   { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard] },
   { path: 'purchased-books', component: PurchasedBooksComponent, canActivate: [AuthGuard] },
   { path: 'read-book/:id', component: ReadBookComponent, canActivate: [AuthGuard] },

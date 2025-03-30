@@ -5,13 +5,18 @@
     <p>You haven't purchased any books yet. Buy some books to start reading! 📖</p>
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div *ngFor="let book of purchasedBooks" class="bg-white rounded-lg shadow-lg p-6">
-      <h3 class="text-xl font-bold text-gray-800">{{ book.name }}</h3>
-      <p class="text-gray-600 mt-2">Total Pages: {{ book.pages.length }}</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+    <div *ngFor="let book of purchasedBooks" class="bg-white rounded-lg shadow-lg p-4 relative">
+      <div class="relative w-full h-60 bg-gray-200 rounded-lg overflow-hidden">
+        <img src="https://bookstoreromanceday.org/wp-content/uploads/2020/08/book-cover-placeholder.png?w=144"
+          alt="Book Cover" class="w-full h-full object-cover">
+      </div>
+
+      <h3 class="text-lg font-bold text-gray-800 mt-3">{{ book.name }}</h3>
+      <p class="text-gray-600 mt-1">Total Pages: {{ book.pages.length }}</p>
 
       <button (click)="readBook(book.id)"
-        class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4 transition duration-300 w-full">
+        class="cursor-pointer bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-3 transition duration-300 w-full">
         📖 Read Book
       </button>
     </div>
