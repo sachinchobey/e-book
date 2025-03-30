@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "b82c",
+      "name": "sachin",
+      "email": "sachin@gmail.com",
+      "password": "sachin123"
+    },
+    {
+      "id": "bd44",
+      "name": "Test",
+      "email": "test@gmail.com",
+      "password": "test1234"
+    },
+    {
+      "id": "98a3",
+      "name": "sachin",
+      "email": "sachin1@gmail.com",
+      "password": "sachin123"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "name": "The Great Adventure",
+      "pages": [
+        {
+          "page": 1,
+          "content": "Once upon a time, in a faraway land, there lived a young traveler with dreams bigger than the horizon. He longed for adventure and sought the unknown. One day, he found an ancient map that whispered secrets of a hidden treasure. The journey ahead was uncertain, but the spark of curiosity burned bright in his heart."
+        },
+        {
+          "page": 2,
+          "content": "The hero embarked on a journey to find the lost treasure, traversing dense forests and crossing roaring rivers. Along the way, he met a wise old man who spoke in riddles and warned of the trials ahead. Each step forward brought new challenges, testing his strength and resolve. But he was determined—nothing could break his spirit."
+        }
+      ],
+      "owners": [
+        "b82c"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Science Wonders",
+      "pages": [
+        {
+          "page": 1,
+          "content": "The world of science is full of amazing discoveries that have shaped humanity. From the smallest atoms to the vastness of space, science reveals the mysteries of existence. It is the force behind innovation, exploration, and the betterment of life. The more we learn, the more we realize how much remains undiscovered."
+        },
+        {
+          "page": 2,
+          "content": "Electricity revolutionized the way we live, powering homes, industries, and technology. The discovery of electric currents changed history, leading to the invention of light bulbs, telephones, and computers. It is the invisible force that fuels our modern world, yet we often take it for granted. Imagine a life without it!"
+        }
+      ],
+      "owners": []
+    },
+    {
+      "id": "3",
+      "name": "The Power of Mindset",
+      "pages": [
+        {
+          "page": 1,
+          "content": "Your mindset determines your success in life. A positive mindset fosters resilience, growth, and achievement, while a negative one limits potential. Throughout history, great thinkers and innovators have harnessed the power of mindset to overcome obstacles and achieve greatness. What you believe shapes your reality."
+        },
+        {
+          "page": 2,
+          "content": "Fixed mindset vs. Growth mindset: The key difference lies in how challenges are perceived. Those with a fixed mindset see failure as a reflection of their abilities, while those with a growth mindset see failure as an opportunity to learn. The way we think can determine the path of our success."
+        }
+      ],
+      "owners": []
+    },
+    {
+      "id": "4",
+      "name": "The History of Civilization",
+      "pages": [
+        {
+          "page": 1,
+          "content": "The dawn of humanity began in ancient Africa, where the first civilizations emerged. From hunting and gathering to settled agriculture, humans adapted to their environment and built communities. Over time, villages transformed into cities, paving the way for grand civilizations that would shape the world."
+        },
+        {
+          "page": 2,
+          "content": "The first civilizations: Mesopotamia, Egypt, and the Indus Valley, flourished along fertile rivers. These societies developed writing, governance, and advanced architecture. The pyramids of Egypt, the ziggurats of Mesopotamia, and the planned cities of the Indus Valley are testaments to their ingenuity."
+        }
+      ],
+      "owners": []
+    },
+    {
+      "id": "5",
+      "name": "Fictional Realities",
+      "pages": [
+        {
+          "page": 1,
+          "content": "The city of Eldoria was hidden from the world, concealed behind a magical veil that only the chosen could see. Legends spoke of an ancient prophecy, foretelling the rise of a hero who would restore balance to the realm. The people of Eldoria waited, hoping the hero would appear before darkness consumed them."
+        },
+        {
+          "page": 2,
+          "content": "A young magician discovered his incredible powers when he stumbled upon an old spellbook. Unbeknownst to him, the book was the key to awakening a long-lost lineage of warriors. As he read its pages, the words glowed with energy, filling his mind with forgotten wisdom and untold secrets."
+        }
+      ],
+      "owners": []
+    },
+    {
+      "id": "6",
+      "name": "The Art of Cooking",
+      "pages": [
+        {
+          "page": 1,
+          "content": "Cooking is both an art and a science, blending flavors, textures, and techniques to create culinary masterpieces. The way ingredients are combined can turn a simple dish into a gourmet delight. Every culture has its own unique approach to cooking, showcasing centuries of tradition and innovation."
+        },
+        {
+          "page": 2,
+          "content": "The history of cooking dates back to prehistoric times when early humans discovered fire. Roasting meat, boiling grains, and fermenting beverages marked the beginning of culinary evolution. From the spices of the Silk Road to the refined techniques of French cuisine, food has always been central to human civilization."
+        }
+      ],
+      "owners": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<div class="min-h-screen bg-gray-100 p-10">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-3xl font-bold text-gray-700">📚 Available Books</h2>
+    <button (click)="signOut()"
+      class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+      🚪 Sign Out
+    </button>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div *ngFor="let book of books" class="bg-white rounded-lg shadow-lg p-6">
+      <h3 class="text-xl font-bold text-gray-800">{{ book.name }}</h3>
+      <p class="text-gray-600 mt-2">Total Pages: {{ book.pages.length }}</p>
+
+      <button *ngIf="book.owners.includes(userId); else purchaseButton" (click)="readBook(book.id)"
+        class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-4 transition duration-300 w-full">
+        📖 Read Book
+      </button>
+
+      <ng-template #purchaseButton>
+        <button (click)="purchaseBook(book.id)"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 transition duration-300 w-full">
+          🛒 Purchase
+        </button>
+      </ng-template>
+    </div>
+  </div>
+</div>
